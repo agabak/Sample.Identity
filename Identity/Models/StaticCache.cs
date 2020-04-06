@@ -6,10 +6,7 @@ using System.Collections.Generic;
 
 namespace Identity.Models
 {
-    /// <summary>
-    /// This implementation is just for demo purposes and does not scale. For better cache implementations see 
-    /// https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/tree/master/2-WebApp-graph-user/2-1-Call-MSGraph
-    /// </summary>
+  
     public class MSALStaticCache
     {
         private static Dictionary<string, byte[]> staticCache = new Dictionary<string, byte[]>();
